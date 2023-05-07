@@ -32,6 +32,7 @@ h3 {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .logo {
@@ -163,6 +164,7 @@ footer {
     padding: 2%;
 }
 
+
 @media only screen and (max-width: 600px) {
     img {
         padding-left: 1rem;
@@ -206,5 +208,10 @@ footer {
         width: 55%;
         border-radius: 10px;
         box-shadow: 20px 20px 26px -6px rgba(0, 0, 0, 0.75);
+    }
+
+    nav {
+        position: sticky !important;
+        top: 0;
     }
 }
